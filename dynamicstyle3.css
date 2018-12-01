@@ -1,0 +1,132 @@
+body{
+  background: lightpink;
+}
+.maindiv{
+  background: lightblue;
+  margin:2%;
+  border-radius: 2%;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+a{
+  font-size:20%;
+}
+img{
+  width:60%;
+  height:35%;
+  border-radius: 2%;
+  border:2px solid red;
+  display: block;
+  margin:auto;
+}
+.leftchild{
+  background-color:lightblue;
+  width:40%;
+  text-align: center;
+  margin:1%;
+  border-radius:2%;
+  box-shadow:4px 4px 4px 4px;
+
+}
+.child2{
+  background-color: green;
+  width:60%;
+  margin:1%;
+  padding:1%;
+}
+h2{
+  color:#CD5C5C;
+}
+p{
+  font-size:20px;
+}
+@media only screen and (max-width:480px) {
+  *{
+    font-size: 20px;
+  }
+  .maindiv{
+    width:100%;
+    background-color: lightpink;
+    display:flex;
+    flex-direction: column;
+  }
+  .leftchild{
+    background-color: lightgreen;
+    text-align: center;
+    width:90%;
+    margin:2% auto;
+    padding:2%;
+    border-radius:20px;
+  }
+  .child2{
+    background-color:red;
+    width:90%;
+    margin:2% auto;
+    padding:2%;
+    border-radius: 20px;
+  }
+  img{
+    width:60%;
+    height:35%;
+    border-radius: 2%;
+    border:2px solid red;
+
+  }
+  h2{
+    color:red;
+  }
+  h3{
+    color:red;
+  }
+  .table-responsive{
+    overflow-x:scroll;
+    width:90%;
+    margin:1% auto;
+  }
+}
+@media only screen and (min-width:480px) and (max-width:720px) {
+  *{
+    font-size: 20px;
+  }
+  .maindiv{
+    width:100%;
+    background-color: lightgreen;
+    display:flex;
+    flex-direction: column;
+  }
+  .leftchild{
+    background-color: lightpink;
+    text-align: center;
+    width:90%;
+    margin:2% auto;
+    padding:2%;
+    border-radius:20px;
+  }
+  .child2{
+    background-color:blue;
+    width:90%;
+    margin:2% auto;
+    padding:2%;
+    border-radius: 20px;
+  }
+  img{
+    width:60%;
+    height:35%;
+    border-radius: 2%;
+    border:2px solid red;
+
+  }
+  h2{
+    color:red;
+  }
+  h3{
+    color:red;
+  }
+  .table-responsive{
+    overflow-x:scroll;
+    width:90%;
+    margin:1% auto;
+
+}
+}

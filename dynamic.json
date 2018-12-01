@@ -1,0 +1,39 @@
+{
+  "career":{
+    "info":"to work in a environment where ican utilize my skills"
+  },
+  "education":[
+    {"degree":"b.tech(it)",
+    "institution":"vignan nirula",
+    "yop":"2020",
+    "cgpa":"7.8"
+
+  },
+{
+  "degree":"inter",
+  "institution":"narayana",
+  "yop":"2016",
+  "cgpa":"9.3"
+},
+{
+  "degree":"ssc",
+  "institution":"bhashyam",
+  "yop":"2014",
+  "cgpa":"8.9"
+}
+],
+"skills":[
+  {
+    "tittle":"database",
+    "content":"windows,linux"
+  },
+  {
+    "tittle":"programming",
+    "content":"java,c++,phython"
+  },
+  {
+    "tittle":"database",
+    "content":"mysql,sql"
+  }
+]
+}
